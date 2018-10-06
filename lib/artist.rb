@@ -12,9 +12,9 @@ class Artist
   end
   
   def add_song_by_name(song_name)
-    song_name = song.name 
-    song.artist = self 
-    @songs << song  
+     new_song = Song.new(song_name)
+      new_song.artist = self 
+    @songs << new_song  
     
   end 
   #The self keyword refers to the artist
@@ -23,7 +23,7 @@ class Artist
     @songs
   end
   
-  def song_count 
+  def self.song_count 
     @songs.count   
   end 
   
