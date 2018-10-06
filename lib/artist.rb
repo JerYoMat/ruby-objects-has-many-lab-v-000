@@ -28,10 +28,7 @@ class Artist
 
   
   def self.song_count 
-    if @songs == []
-      nil 
-    else
-      @songs.count 
+     self.songs 
    end 
  
   end 
