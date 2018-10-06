@@ -20,7 +20,7 @@ class Artist
   end 
   
   def songs
-    @songs 
+    @@songs 
   end 
   #The self keyword refers to the artist
 
