@@ -17,6 +17,10 @@ class Artist
     @songs << new_song  
     
   end 
+  
+  def songs
+    @songs 
+  end 
   #The self keyword refers to the artist
 
   def songs
