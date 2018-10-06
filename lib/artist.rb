@@ -30,7 +30,7 @@ class Artist
       nil 
     else
       @songs.count 
-
+   end 
  
   end 
   
