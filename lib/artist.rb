@@ -1,5 +1,5 @@
 class Artist
-  attr_accessor :name
+  attr_accessor :name, :songs 
 
   def initialize(name)
     @name = name
@@ -23,9 +23,6 @@ class Artist
   end 
   #The self keyword refers to the artist
 
-  def songs
-    @songs
-  end
   
   def self.song_count 
     @songs.count   
