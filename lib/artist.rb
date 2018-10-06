@@ -25,7 +25,10 @@ class Artist
     @@songs 
   end 
   #The self keyword refers to the artist
-
+  
+  def self.song_count
+    @@songs.count 
+  end 
   
 
   
